@@ -5,3 +5,7 @@
 `tsc -t es5 02class.ts` // 指定编译成es5版本
 2. webpack编译
 `npm run server`
+
+
+# xxx
+> `.d.ts` 文件扩展名指定这个文件是一个声明文件

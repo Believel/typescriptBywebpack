@@ -3,9 +3,13 @@
       "module": "commonjs", // 编译出的代码采用的模块规范
       "target": "es5", // 编译出的代码采用 ES 的哪个版本
       "sourceMap": true, // 输出 Source Map 方便调试
-      "importHelpers": true
+      "importHelpers": true,
+      "types": [
+      ],// 配置第三方文件，避免全局泄露
+      "experimentalDecorators": true, // 启用装饰器
     },
     "exclude": [ // 不编译这些目录里的文件
       "node_modules"
-    ]
-  }
+    ],
+    // "include": []
+}

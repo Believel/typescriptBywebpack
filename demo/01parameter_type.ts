@@ -14,7 +14,7 @@ let arr3:[number,boolean] = [1,true]
 // 枚举类型
 enum Gender{Male, Female};
 let gender:Gender = Gender.Male
-// void
+// void 表示一个函数没有一个返回值
 function hello(name:string):void {
     console.log('你好'+name)
 }
